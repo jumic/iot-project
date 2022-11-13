@@ -41,6 +41,7 @@ export class IotDataCollectionPipelineStack extends Stack {
 
     const pipeline = new CodePipeline(this, "Pipeline", {
       pipelineName: "MyPipeline",
+      crossAccountKeys: true,
       synth: new CodeBuildStep("Synth", {
         input: CodePipelineSource.codeCommit(repository, "main"),
         commands: [
