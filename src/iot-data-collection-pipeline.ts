@@ -43,7 +43,12 @@ export class IotDataCollectionPipeline extends Construct {
       pipelineName: "MyPipeline",
       synth: new CodeBuildStep("Synth", {
         input: CodePipelineSource.codeCommit(repository, "main"),
-        commands: ["npm ci", "npm run build", "npx cdk synth"],
+        commands: [
+          'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc',
+          "npm ci",
+          "npm run build",
+          "npx cdk synth",
+        ],
         buildEnvironment: {
           environmentVariables: {
             NPM_TOKEN: {
