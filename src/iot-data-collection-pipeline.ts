@@ -1,4 +1,4 @@
-import { Environment, Stack, Stage, StageProps } from "aws-cdk-lib";
+import { Environment, Stack, StackProps, Stage, StageProps } from "aws-cdk-lib";
 import { BuildEnvironmentVariableType } from "aws-cdk-lib/aws-codebuild";
 import { Repository } from "aws-cdk-lib/aws-codecommit";
 import {
@@ -14,7 +14,7 @@ export interface IotDataCollectionPipelineStage {
   readonly name: string;
 }
 
-export interface IotDataCollectionPipelineProps {
+export interface IotDataCollectionPipelineStackProps extends StackProps {
   /**
    * CodeCommit Repository Name
    */
@@ -25,13 +25,13 @@ export interface IotDataCollectionPipelineProps {
   readonly npmTokenSecretArn: string;
 }
 
-export class IotDataCollectionPipeline extends Construct {
+export class IotDataCollectionPipelineStack extends Stack {
   public constructor(
     scope: Construct,
     id: string,
-    props: IotDataCollectionPipelineProps
+    props: IotDataCollectionPipelineStackProps
   ) {
-    super(scope, id);
+    super(scope, id, props);
 
     const repository = Repository.fromRepositoryName(
       this,
