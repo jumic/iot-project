@@ -12,36 +12,36 @@ import { IotDataCollection } from '@jumic/iot-project'
 new IotDataCollection(scope: Construct, id: string, props?: IotDataCollectionProps)
 ```
 
-| **Name**                                                                                           | **Type**                                                                                     | **Description**   |
-| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------- |
-| <code><a href="#@jumic/iot-project.IotDataCollection.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code>                                                            | _No description._ |
-| <code><a href="#@jumic/iot-project.IotDataCollection.Initializer.parameter.id">id</a></code>       | <code>string</code>                                                                          | _No description._ |
-| <code><a href="#@jumic/iot-project.IotDataCollection.Initializer.parameter.props">props</a></code> | <code><a href="#@jumic/iot-project.IotDataCollectionProps">IotDataCollectionProps</a></code> | _No description._ |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollection.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#@jumic/iot-project.IotDataCollection.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@jumic/iot-project.IotDataCollection.Initializer.parameter.props">props</a></code> | <code><a href="#@jumic/iot-project.IotDataCollectionProps">IotDataCollectionProps</a></code> | *No description.* |
 
 ---
 
 ##### `scope`<sup>Required</sup> <a name="scope" id="@jumic/iot-project.IotDataCollection.Initializer.parameter.scope"></a>
 
-- _Type:_ constructs.Construct
+- *Type:* constructs.Construct
 
 ---
 
 ##### `id`<sup>Required</sup> <a name="id" id="@jumic/iot-project.IotDataCollection.Initializer.parameter.id"></a>
 
-- _Type:_ string
+- *Type:* string
 
 ---
 
 ##### `props`<sup>Optional</sup> <a name="props" id="@jumic/iot-project.IotDataCollection.Initializer.parameter.props"></a>
 
-- _Type:_ <a href="#@jumic/iot-project.IotDataCollectionProps">IotDataCollectionProps</a>
+- *Type:* <a href="#@jumic/iot-project.IotDataCollectionProps">IotDataCollectionProps</a>
 
 ---
 
 #### Methods <a name="Methods" id="Methods"></a>
 
-| **Name**                                                                           | **Description**                                    |
-| ---------------------------------------------------------------------------------- | -------------------------------------------------- |
+| **Name** | **Description** |
+| --- | --- |
 | <code><a href="#@jumic/iot-project.IotDataCollection.toString">toString</a></code> | Returns a string representation of this construct. |
 
 ---
@@ -56,8 +56,8 @@ Returns a string representation of this construct.
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
-| **Name**                                                                                 | **Description**               |
-| ---------------------------------------------------------------------------------------- | ----------------------------- |
+| **Name** | **Description** |
+| --- | --- |
 | <code><a href="#@jumic/iot-project.IotDataCollection.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
@@ -74,7 +74,7 @@ Checks if `x` is a construct.
 
 ###### `x`<sup>Required</sup> <a name="x" id="@jumic/iot-project.IotDataCollection.isConstruct.parameter.x"></a>
 
-- _Type:_ any
+- *Type:* any
 
 Any object.
 
@@ -82,9 +82,9 @@ Any object.
 
 #### Properties <a name="Properties" id="Properties"></a>
 
-| **Name**                                                                            | **Type**                     | **Description** |
-| ----------------------------------------------------------------------------------- | ---------------------------- | --------------- |
-| <code><a href="#@jumic/iot-project.IotDataCollection.property.node">node</a></code> | <code>constructs.Node</code> | The tree node.  |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollection.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 
 ---
 
@@ -94,11 +94,12 @@ Any object.
 public readonly node: Node;
 ```
 
-- _Type:_ constructs.Node
+- *Type:* constructs.Node
 
 The tree node.
 
 ---
+
 
 ### IotDataCollectionPipelineStack <a name="IotDataCollectionPipelineStack" id="@jumic/iot-project.IotDataCollectionPipelineStack"></a>
 
@@ -110,47 +111,47 @@ import { IotDataCollectionPipelineStack } from '@jumic/iot-project'
 new IotDataCollectionPipelineStack(scope: Construct, id: string, props: IotDataCollectionPipelineStackProps)
 ```
 
-| **Name**                                                                                                        | **Type**                                                                                                               | **Description**   |
-| --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code>                                                                                      | _No description._ |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.id">id</a></code>       | <code>string</code>                                                                                                    | _No description._ |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.props">props</a></code> | <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps">IotDataCollectionPipelineStackProps</a></code> | _No description._ |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.props">props</a></code> | <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps">IotDataCollectionPipelineStackProps</a></code> | *No description.* |
 
 ---
 
 ##### `scope`<sup>Required</sup> <a name="scope" id="@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.scope"></a>
 
-- _Type:_ constructs.Construct
+- *Type:* constructs.Construct
 
 ---
 
 ##### `id`<sup>Required</sup> <a name="id" id="@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.id"></a>
 
-- _Type:_ string
+- *Type:* string
 
 ---
 
 ##### `props`<sup>Required</sup> <a name="props" id="@jumic/iot-project.IotDataCollectionPipelineStack.Initializer.parameter.props"></a>
 
-- _Type:_ <a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps">IotDataCollectionPipelineStackProps</a>
+- *Type:* <a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps">IotDataCollectionPipelineStackProps</a>
 
 ---
 
 #### Methods <a name="Methods" id="Methods"></a>
 
-| **Name**                                                                                                                      | **Description**                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.toString">toString</a></code>                               | Returns a string representation of this construct.                                                           |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.addDependency">addDependency</a></code>                     | Add a dependency between this stack and another stack.                                                       |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.addTransform">addTransform</a></code>                       | Add a Transform to this stack. A Transform is a macro that AWS CloudFormation uses to process your template. |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.exportValue">exportValue</a></code>                         | Create a CloudFormation Export for a value.                                                                  |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.formatArn">formatArn</a></code>                             | Creates an ARN from components.                                                                              |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.getLogicalId">getLogicalId</a></code>                       | Allocates a stack-unique CloudFormation-compatible logical identity for a specific resource.                 |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.renameLogicalId">renameLogicalId</a></code>                 | Rename a generated logical identities.                                                                       |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.reportMissingContextKey">reportMissingContextKey</a></code> | Indicate that a context key was expected.                                                                    |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.resolve">resolve</a></code>                                 | Resolve a tokenized value in the context of the current stack.                                               |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.splitArn">splitArn</a></code>                               | Splits the provided ARN into its components.                                                                 |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.toJsonString">toJsonString</a></code>                       | Convert an object, potentially containing tokens, to a JSON string.                                          |
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.addDependency">addDependency</a></code> | Add a dependency between this stack and another stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.addTransform">addTransform</a></code> | Add a Transform to this stack. A Transform is a macro that AWS CloudFormation uses to process your template. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.exportValue">exportValue</a></code> | Create a CloudFormation Export for a value. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.formatArn">formatArn</a></code> | Creates an ARN from components. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.getLogicalId">getLogicalId</a></code> | Allocates a stack-unique CloudFormation-compatible logical identity for a specific resource. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.renameLogicalId">renameLogicalId</a></code> | Rename a generated logical identities. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.reportMissingContextKey">reportMissingContextKey</a></code> | Indicate that a context key was expected. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.resolve">resolve</a></code> | Resolve a tokenized value in the context of the current stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.splitArn">splitArn</a></code> | Splits the provided ARN into its components. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.toJsonString">toJsonString</a></code> | Convert an object, potentially containing tokens, to a JSON string. |
 
 ---
 
@@ -175,13 +176,13 @@ app, and also supports nested stacks.
 
 ###### `target`<sup>Required</sup> <a name="target" id="@jumic/iot-project.IotDataCollectionPipelineStack.addDependency.parameter.target"></a>
 
-- _Type:_ aws-cdk-lib.Stack
+- *Type:* aws-cdk-lib.Stack
 
 ---
 
 ###### `reason`<sup>Optional</sup> <a name="reason" id="@jumic/iot-project.IotDataCollectionPipelineStack.addDependency.parameter.reason"></a>
 
-- _Type:_ string
+- *Type:* string
 
 ---
 
@@ -197,17 +198,18 @@ Duplicate values are removed when stack is synthesized.
 
 > [https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-section-structure.html)
 
-_Example_
+*Example*
 
 ```typescript
 declare const stack: Stack;
 
-stack.addTransform("AWS::Serverless-2016-10-31");
+stack.addTransform('AWS::Serverless-2016-10-31')
 ```
+
 
 ###### `transform`<sup>Required</sup> <a name="transform" id="@jumic/iot-project.IotDataCollectionPipelineStack.addTransform.parameter.transform"></a>
 
-- _Type:_ string
+- *Type:* string
 
 The transform to add.
 
@@ -230,7 +232,7 @@ a Resource attribute (for example: `bucket.bucketName`) and it will be
 given the same name as the automatic cross-stack reference that would be created
 if you used the attribute in another Stack.
 
-One of the uses for this method is to _remove_ the relationship between
+One of the uses for this method is to *remove* the relationship between
 two Stacks established by automatic cross-stack references. It will
 temporarily ensure that the CloudFormation Export still exists while you
 remove the reference from the consuming stack. After that, you can remove
@@ -251,11 +253,11 @@ Instead, the process takes two deployments:
 ### Deployment 1: break the relationship
 
 - Make sure `consumerStack` no longer references `bucket.bucketName` (maybe the consumer
-  stack now uses its own bucket, or it writes to an AWS DynamoDB table, or maybe you just
-  remove the Lambda Function altogether).
+   stack now uses its own bucket, or it writes to an AWS DynamoDB table, or maybe you just
+   remove the Lambda Function altogether).
 - In the `ProducerStack` class, call `this.exportValue(this.bucket.bucketName)`. This
-  will make sure the CloudFormation Export continues to exist while the relationship
-  between the two stacks is being broken.
+   will make sure the CloudFormation Export continues to exist while the relationship
+   between the two stacks is being broken.
 - Deploy (this will effectively only change the `consumerStack`, but it's safe to deploy both).
 
 ### Deployment 2: remove the bucket resource
@@ -266,13 +268,13 @@ Instead, the process takes two deployments:
 
 ###### `exportedValue`<sup>Required</sup> <a name="exportedValue" id="@jumic/iot-project.IotDataCollectionPipelineStack.exportValue.parameter.exportedValue"></a>
 
-- _Type:_ any
+- *Type:* any
 
 ---
 
 ###### `options`<sup>Optional</sup> <a name="options" id="@jumic/iot-project.IotDataCollectionPipelineStack.exportValue.parameter.options"></a>
 
-- _Type:_ aws-cdk-lib.ExportValueOptions
+- *Type:* aws-cdk-lib.ExportValueOptions
 
 ---
 
@@ -292,7 +294,7 @@ into the generated ARN at the location that component corresponds to.
 
 The ARN will be formatted as follows:
 
-arn:{partition}:{service}:{region}:{account}:{resource}{sep}}{resource-name}
+   arn:{partition}:{service}:{region}:{account}:{resource}{sep}}{resource-name}
 
 The required ARN pieces that are omitted will be taken from the stack that
 the 'scope' is attached to. If all ARN pieces are supplied, the supplied scope
@@ -300,7 +302,7 @@ can be 'undefined'.
 
 ###### `components`<sup>Required</sup> <a name="components" id="@jumic/iot-project.IotDataCollectionPipelineStack.formatArn.parameter.components"></a>
 
-- _Type:_ aws-cdk-lib.ArnComponents
+- *Type:* aws-cdk-lib.ArnComponents
 
 ---
 
@@ -322,7 +324,7 @@ class and override this method.
 
 ###### `element`<sup>Required</sup> <a name="element" id="@jumic/iot-project.IotDataCollectionPipelineStack.getLogicalId.parameter.element"></a>
 
-- _Type:_ aws-cdk-lib.CfnElement
+- *Type:* aws-cdk-lib.CfnElement
 
 The CloudFormation element for which a logical identity is needed.
 
@@ -341,13 +343,13 @@ override the `allocateLogicalId` method.
 
 ###### `oldId`<sup>Required</sup> <a name="oldId" id="@jumic/iot-project.IotDataCollectionPipelineStack.renameLogicalId.parameter.oldId"></a>
 
-- _Type:_ string
+- *Type:* string
 
 ---
 
 ###### `newId`<sup>Required</sup> <a name="newId" id="@jumic/iot-project.IotDataCollectionPipelineStack.renameLogicalId.parameter.newId"></a>
 
-- _Type:_ string
+- *Type:* string
 
 ---
 
@@ -364,7 +366,7 @@ the key should be supplied.
 
 ###### `report`<sup>Required</sup> <a name="report" id="@jumic/iot-project.IotDataCollectionPipelineStack.reportMissingContextKey.parameter.report"></a>
 
-- _Type:_ aws-cdk-lib.cloud_assembly_schema.MissingContext
+- *Type:* aws-cdk-lib.cloud_assembly_schema.MissingContext
 
 The set of parameters needed to obtain the context.
 
@@ -380,7 +382,7 @@ Resolve a tokenized value in the context of the current stack.
 
 ###### `obj`<sup>Required</sup> <a name="obj" id="@jumic/iot-project.IotDataCollectionPipelineStack.resolve.parameter.obj"></a>
 
-- _Type:_ any
+- *Type:* any
 
 ---
 
@@ -399,7 +401,7 @@ encoded as Tokens).
 
 ###### `arn`<sup>Required</sup> <a name="arn" id="@jumic/iot-project.IotDataCollectionPipelineStack.splitArn.parameter.arn"></a>
 
-- _Type:_ string
+- *Type:* string
 
 the ARN to split into its components.
 
@@ -407,7 +409,7 @@ the ARN to split into its components.
 
 ###### `arnFormat`<sup>Required</sup> <a name="arnFormat" id="@jumic/iot-project.IotDataCollectionPipelineStack.splitArn.parameter.arnFormat"></a>
 
-- _Type:_ aws-cdk-lib.ArnFormat
+- *Type:* aws-cdk-lib.ArnFormat
 
 the expected format of 'arn' - depends on what format the service 'arn' represents uses.
 
@@ -423,23 +425,23 @@ Convert an object, potentially containing tokens, to a JSON string.
 
 ###### `obj`<sup>Required</sup> <a name="obj" id="@jumic/iot-project.IotDataCollectionPipelineStack.toJsonString.parameter.obj"></a>
 
-- _Type:_ any
+- *Type:* any
 
 ---
 
 ###### `space`<sup>Optional</sup> <a name="space" id="@jumic/iot-project.IotDataCollectionPipelineStack.toJsonString.parameter.space"></a>
 
-- _Type:_ number
+- *Type:* number
 
 ---
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
-| **Name**                                                                                              | **Description**                                                 |
-| ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.isConstruct">isConstruct</a></code> | Checks if `x` is a construct.                                   |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.isStack">isStack</a></code>         | Return whether the given object is a Stack.                     |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.of">of</a></code>                   | Looks up the first stack scope in which `construct` is defined. |
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.isStack">isStack</a></code> | Return whether the given object is a Stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.of">of</a></code> | Looks up the first stack scope in which `construct` is defined. |
 
 ---
 
@@ -455,7 +457,7 @@ Checks if `x` is a construct.
 
 ###### `x`<sup>Required</sup> <a name="x" id="@jumic/iot-project.IotDataCollectionPipelineStack.isConstruct.parameter.x"></a>
 
-- _Type:_ any
+- *Type:* any
 
 Any object.
 
@@ -475,7 +477,7 @@ We do attribute detection since we can't reliably use 'instanceof'.
 
 ###### `x`<sup>Required</sup> <a name="x" id="@jumic/iot-project.IotDataCollectionPipelineStack.isStack.parameter.x"></a>
 
-- _Type:_ any
+- *Type:* any
 
 ---
 
@@ -493,7 +495,7 @@ Fails if there is no stack up the tree.
 
 ###### `construct`<sup>Required</sup> <a name="construct" id="@jumic/iot-project.IotDataCollectionPipelineStack.of.parameter.construct"></a>
 
-- _Type:_ constructs.IConstruct
+- *Type:* constructs.IConstruct
 
 The construct to start the search from.
 
@@ -501,28 +503,28 @@ The construct to start the search from.
 
 #### Properties <a name="Properties" id="Properties"></a>
 
-| **Name**                                                                                                                           | **Type**                                   | **Description**                                                                                                |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.node">node</a></code>                                   | <code>constructs.Node</code>               | The tree node.                                                                                                 |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.account">account</a></code>                             | <code>string</code>                        | The AWS account into which this stack will be deployed.                                                        |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.artifactId">artifactId</a></code>                       | <code>string</code>                        | The ID of the cloud assembly artifact for this stack.                                                          |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.availabilityZones">availabilityZones</a></code>         | <code>string[]</code>                      | Returns the list of AZs that are available in the AWS environment (account/region) associated with this stack. |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.dependencies">dependencies</a></code>                   | <code>aws-cdk-lib.Stack[]</code>           | Return the stacks this stack depends on.                                                                       |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.environment">environment</a></code>                     | <code>string</code>                        | The environment coordinates in which this stack is deployed.                                                   |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.nested">nested</a></code>                               | <code>boolean</code>                       | Indicates if this is a nested stack, in which case `parentStack` will include a reference to it's parent.      |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.nestedStackParent">nestedStackParent</a></code>         | <code>aws-cdk-lib.Stack</code>             | If this is a nested stack, returns it's parent stack.                                                          |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.nestedStackResource">nestedStackResource</a></code>     | <code>aws-cdk-lib.CfnResource</code>       | If this is a nested stack, this represents its `AWS::CloudFormation::Stack` resource.                          |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.notificationArns">notificationArns</a></code>           | <code>string[]</code>                      | Returns the list of notification Amazon Resource Names (ARNs) for the current stack.                           |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.partition">partition</a></code>                         | <code>string</code>                        | The partition in which this stack is defined.                                                                  |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.region">region</a></code>                               | <code>string</code>                        | The AWS region into which this stack will be deployed (e.g. `us-west-2`).                                      |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.stackId">stackId</a></code>                             | <code>string</code>                        | The ID of the stack.                                                                                           |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.stackName">stackName</a></code>                         | <code>string</code>                        | The concrete CloudFormation physical stack name.                                                               |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.synthesizer">synthesizer</a></code>                     | <code>aws-cdk-lib.IStackSynthesizer</code> | Synthesis method for this stack.                                                                               |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.tags">tags</a></code>                                   | <code>aws-cdk-lib.TagManager</code>        | Tags to be applied to the stack.                                                                               |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.templateFile">templateFile</a></code>                   | <code>string</code>                        | The name of the CloudFormation template file emitted to the output directory during synthesis.                 |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.templateOptions">templateOptions</a></code>             | <code>aws-cdk-lib.ITemplateOptions</code>  | Options for CloudFormation template (like version, transform, description).                                    |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.terminationProtection">terminationProtection</a></code> | <code>boolean</code>                       | Whether termination protection is enabled for this stack.                                                      |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.urlSuffix">urlSuffix</a></code>                         | <code>string</code>                        | The Amazon domain suffix for the region in which this stack is defined.                                        |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.account">account</a></code> | <code>string</code> | The AWS account into which this stack will be deployed. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.artifactId">artifactId</a></code> | <code>string</code> | The ID of the cloud assembly artifact for this stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.availabilityZones">availabilityZones</a></code> | <code>string[]</code> | Returns the list of AZs that are available in the AWS environment (account/region) associated with this stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.dependencies">dependencies</a></code> | <code>aws-cdk-lib.Stack[]</code> | Return the stacks this stack depends on. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.environment">environment</a></code> | <code>string</code> | The environment coordinates in which this stack is deployed. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.nested">nested</a></code> | <code>boolean</code> | Indicates if this is a nested stack, in which case `parentStack` will include a reference to it's parent. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.nestedStackParent">nestedStackParent</a></code> | <code>aws-cdk-lib.Stack</code> | If this is a nested stack, returns it's parent stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.nestedStackResource">nestedStackResource</a></code> | <code>aws-cdk-lib.CfnResource</code> | If this is a nested stack, this represents its `AWS::CloudFormation::Stack` resource. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.notificationArns">notificationArns</a></code> | <code>string[]</code> | Returns the list of notification Amazon Resource Names (ARNs) for the current stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.partition">partition</a></code> | <code>string</code> | The partition in which this stack is defined. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.region">region</a></code> | <code>string</code> | The AWS region into which this stack will be deployed (e.g. `us-west-2`). |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.stackId">stackId</a></code> | <code>string</code> | The ID of the stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.stackName">stackName</a></code> | <code>string</code> | The concrete CloudFormation physical stack name. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.synthesizer">synthesizer</a></code> | <code>aws-cdk-lib.IStackSynthesizer</code> | Synthesis method for this stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.tags">tags</a></code> | <code>aws-cdk-lib.TagManager</code> | Tags to be applied to the stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.templateFile">templateFile</a></code> | <code>string</code> | The name of the CloudFormation template file emitted to the output directory during synthesis. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.templateOptions">templateOptions</a></code> | <code>aws-cdk-lib.ITemplateOptions</code> | Options for CloudFormation template (like version, transform, description). |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.terminationProtection">terminationProtection</a></code> | <code>boolean</code> | Whether termination protection is enabled for this stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStack.property.urlSuffix">urlSuffix</a></code> | <code>string</code> | The Amazon domain suffix for the region in which this stack is defined. |
 
 ---
 
@@ -532,7 +534,7 @@ The construct to start the search from.
 public readonly node: Node;
 ```
 
-- _Type:_ constructs.Node
+- *Type:* constructs.Node
 
 The tree node.
 
@@ -544,17 +546,17 @@ The tree node.
 public readonly account: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The AWS account into which this stack will be deployed.
 
 This value is resolved according to the following rules:
 
 1. The value provided to `env.account` when the stack is defined. This can
-   either be a concerete account (e.g. `585695031111`) or the
-   `Aws.accountId` token.
-2. `Aws.accountId`, which represents the CloudFormation intrinsic reference
-   `{ "Ref": "AWS::AccountId" }` encoded as a string token.
+    either be a concerete account (e.g. `585695031111`) or the
+    `Aws.accountId` token.
+3. `Aws.accountId`, which represents the CloudFormation intrinsic reference
+    `{ "Ref": "AWS::AccountId" }` encoded as a string token.
 
 Preferably, you should use the return value as an opaque string and not
 attempt to parse it to implement your logic. If you do, you must first
@@ -573,7 +575,7 @@ implement some other region-agnostic behavior.
 public readonly artifactId: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The ID of the cloud assembly artifact for this stack.
 
@@ -585,7 +587,7 @@ The ID of the cloud assembly artifact for this stack.
 public readonly availabilityZones: string[];
 ```
 
-- _Type:_ string[]
+- *Type:* string[]
 
 Returns the list of AZs that are available in the AWS environment (account/region) associated with this stack.
 
@@ -608,7 +610,7 @@ To specify a different strategy for selecting availability zones override this m
 public readonly dependencies: Stack[];
 ```
 
-- _Type:_ aws-cdk-lib.Stack[]
+- *Type:* aws-cdk-lib.Stack[]
 
 Return the stacks this stack depends on.
 
@@ -620,7 +622,7 @@ Return the stacks this stack depends on.
 public readonly environment: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The environment coordinates in which this stack is deployed.
 
@@ -644,7 +646,7 @@ region/account-agnostic.
 public readonly nested: boolean;
 ```
 
-- _Type:_ boolean
+- *Type:* boolean
 
 Indicates if this is a nested stack, in which case `parentStack` will include a reference to it's parent.
 
@@ -656,7 +658,7 @@ Indicates if this is a nested stack, in which case `parentStack` will include a 
 public readonly nestedStackParent: Stack;
 ```
 
-- _Type:_ aws-cdk-lib.Stack
+- *Type:* aws-cdk-lib.Stack
 
 If this is a nested stack, returns it's parent stack.
 
@@ -668,7 +670,7 @@ If this is a nested stack, returns it's parent stack.
 public readonly nestedStackResource: CfnResource;
 ```
 
-- _Type:_ aws-cdk-lib.CfnResource
+- *Type:* aws-cdk-lib.CfnResource
 
 If this is a nested stack, this represents its `AWS::CloudFormation::Stack` resource.
 
@@ -682,7 +684,7 @@ If this is a nested stack, this represents its `AWS::CloudFormation::Stack` reso
 public readonly notificationArns: string[];
 ```
 
-- _Type:_ string[]
+- *Type:* string[]
 
 Returns the list of notification Amazon Resource Names (ARNs) for the current stack.
 
@@ -694,7 +696,7 @@ Returns the list of notification Amazon Resource Names (ARNs) for the current st
 public readonly partition: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The partition in which this stack is defined.
 
@@ -706,17 +708,17 @@ The partition in which this stack is defined.
 public readonly region: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The AWS region into which this stack will be deployed (e.g. `us-west-2`).
 
 This value is resolved according to the following rules:
 
 1. The value provided to `env.region` when the stack is defined. This can
-   either be a concerete region (e.g. `us-west-2`) or the `Aws.region`
-   token.
-2. `Aws.region`, which is represents the CloudFormation intrinsic reference
-   `{ "Ref": "AWS::Region" }` encoded as a string token.
+    either be a concerete region (e.g. `us-west-2`) or the `Aws.region`
+    token.
+3. `Aws.region`, which is represents the CloudFormation intrinsic reference
+    `{ "Ref": "AWS::Region" }` encoded as a string token.
 
 Preferably, you should use the return value as an opaque string and not
 attempt to parse it to implement your logic. If you do, you must first
@@ -735,18 +737,19 @@ implement some other region-agnostic behavior.
 public readonly stackId: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The ID of the stack.
 
 ---
 
-_Example_
+*Example*
 
 ```typescript
 // After resolving, looks like
-"arn:aws:cloudformation:us-west-2:123456789012:stack/teststack/51af3dc0-da77-11e4-872e-1234567db123";
+'arn:aws:cloudformation:us-west-2:123456789012:stack/teststack/51af3dc0-da77-11e4-872e-1234567db123'
 ```
+
 
 ##### `stackName`<sup>Required</sup> <a name="stackName" id="@jumic/iot-project.IotDataCollectionPipelineStack.property.stackName"></a>
 
@@ -754,7 +757,7 @@ _Example_
 public readonly stackName: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The concrete CloudFormation physical stack name.
 
@@ -775,7 +778,7 @@ you can use `Aws.stackName` directly.
 public readonly synthesizer: IStackSynthesizer;
 ```
 
-- _Type:_ aws-cdk-lib.IStackSynthesizer
+- *Type:* aws-cdk-lib.IStackSynthesizer
 
 Synthesis method for this stack.
 
@@ -787,7 +790,7 @@ Synthesis method for this stack.
 public readonly tags: TagManager;
 ```
 
-- _Type:_ aws-cdk-lib.TagManager
+- *Type:* aws-cdk-lib.TagManager
 
 Tags to be applied to the stack.
 
@@ -799,7 +802,7 @@ Tags to be applied to the stack.
 public readonly templateFile: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The name of the CloudFormation template file emitted to the output directory during synthesis.
 
@@ -813,7 +816,7 @@ Example value: `MyStack.template.json`
 public readonly templateOptions: ITemplateOptions;
 ```
 
-- _Type:_ aws-cdk-lib.ITemplateOptions
+- *Type:* aws-cdk-lib.ITemplateOptions
 
 Options for CloudFormation template (like version, transform, description).
 
@@ -825,7 +828,7 @@ Options for CloudFormation template (like version, transform, description).
 public readonly terminationProtection: boolean;
 ```
 
-- _Type:_ boolean
+- *Type:* boolean
 
 Whether termination protection is enabled for this stack.
 
@@ -837,11 +840,12 @@ Whether termination protection is enabled for this stack.
 public readonly urlSuffix: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 The Amazon domain suffix for the region in which this stack is defined.
 
 ---
+
 
 ## Structs <a name="Structs" id="Structs"></a>
 
@@ -857,18 +861,18 @@ const iotDataCollectionPipelineStackProps: IotDataCollectionPipelineStackProps =
 
 #### Properties <a name="Properties" id="Properties"></a>
 
-| **Name**                                                                                                                                      | **Type**                                                                                                       | **Description**                                                                     |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.analyticsReporting">analyticsReporting</a></code>             | <code>boolean</code>                                                                                           | Include runtime versioning information in this Stack.                               |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.description">description</a></code>                           | <code>string</code>                                                                                            | A description of the stack.                                                         |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.env">env</a></code>                                           | <code>aws-cdk-lib.Environment</code>                                                                           | The AWS environment (account/region) where this stack will be deployed.             |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.stackName">stackName</a></code>                               | <code>string</code>                                                                                            | Name to deploy the stack with.                                                      |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.synthesizer">synthesizer</a></code>                           | <code>aws-cdk-lib.IStackSynthesizer</code>                                                                     | Synthesis method to use while deploying this stack.                                 |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.tags">tags</a></code>                                         | <code>{[ key: string ]: string}</code>                                                                         | Stack tags that will be applied to all the taggable resources and the stack itself. |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.terminationProtection">terminationProtection</a></code>       | <code>boolean</code>                                                                                           | Whether to enable termination protection for this stack.                            |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.codeCommitRepositoryName">codeCommitRepositoryName</a></code> | <code>string</code>                                                                                            | CodeCommit Repository Name.                                                         |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.npmTokenSecretArn">npmTokenSecretArn</a></code>               | <code>string</code>                                                                                            | _No description._                                                                   |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.stages">stages</a></code>                                     | <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStage">IotDataCollectionPipelineStage</a>[]</code> | _No description._                                                                   |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.analyticsReporting">analyticsReporting</a></code> | <code>boolean</code> | Include runtime versioning information in this Stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.description">description</a></code> | <code>string</code> | A description of the stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.env">env</a></code> | <code>aws-cdk-lib.Environment</code> | The AWS environment (account/region) where this stack will be deployed. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.stackName">stackName</a></code> | <code>string</code> | Name to deploy the stack with. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.synthesizer">synthesizer</a></code> | <code>aws-cdk-lib.IStackSynthesizer</code> | Synthesis method to use while deploying this stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.tags">tags</a></code> | <code>{[ key: string ]: string}</code> | Stack tags that will be applied to all the taggable resources and the stack itself. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.terminationProtection">terminationProtection</a></code> | <code>boolean</code> | Whether to enable termination protection for this stack. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.codeCommitRepositoryName">codeCommitRepositoryName</a></code> | <code>string</code> | CodeCommit Repository Name. |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.npmTokenSecretArn">npmTokenSecretArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStackProps.property.stages">stages</a></code> | <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStage">IotDataCollectionPipelineStage</a>[]</code> | *No description.* |
 
 ---
 
@@ -878,8 +882,8 @@ const iotDataCollectionPipelineStackProps: IotDataCollectionPipelineStackProps =
 public readonly analyticsReporting: boolean;
 ```
 
-- _Type:_ boolean
-- _Default:_ `analyticsReporting` setting of containing `App`, or value of 'aws:cdk:version-reporting' context key
+- *Type:* boolean
+- *Default:* `analyticsReporting` setting of containing `App`, or value of 'aws:cdk:version-reporting' context key
 
 Include runtime versioning information in this Stack.
 
@@ -891,8 +895,8 @@ Include runtime versioning information in this Stack.
 public readonly description: string;
 ```
 
-- _Type:_ string
-- _Default:_ No description.
+- *Type:* string
+- *Default:* No description.
 
 A description of the stack.
 
@@ -904,8 +908,8 @@ A description of the stack.
 public readonly env: Environment;
 ```
 
-- _Type:_ aws-cdk-lib.Environment
-- _Default:_ The environment of the containing `Stage` if available, otherwise create the stack will be environment-agnostic.
+- *Type:* aws-cdk-lib.Environment
+- *Default:* The environment of the containing `Stage` if available, otherwise create the stack will be environment-agnostic.
 
 The AWS environment (account/region) where this stack will be deployed.
 
@@ -921,7 +925,7 @@ If the `Stack` is instantiated inside a `Stage`, any undefined
 encompassing `Stage`, if configured there.
 
 If either `region` or `account` are not set nor inherited from `Stage`, the
-Stack will be considered "_environment-agnostic_"". Environment-agnostic
+Stack will be considered "*environment-agnostic*"". Environment-agnostic
 stacks can be deployed to any environment but may not be able to take
 advantage of all features of the CDK. For example, they will not be able to
 use environmental context lookups such as `ec2.Vpc.fromLookup` and will not
@@ -930,46 +934,47 @@ environment's AWS partition, and other such enhancements.
 
 ---
 
-_Example_
+*Example*
 
 ```typescript
 // Use a concrete account and region to deploy this stack to:
 // `.account` and `.region` will simply return these values.
-new Stack(app, "Stack1", {
+new Stack(app, 'Stack1', {
   env: {
-    account: "123456789012",
-    region: "us-east-1",
+    account: '123456789012',
+    region: 'us-east-1'
   },
 });
 
 // Use the CLI's current credentials to determine the target environment:
 // `.account` and `.region` will reflect the account+region the CLI
 // is configured to use (based on the user CLI credentials)
-new Stack(app, "Stack2", {
+new Stack(app, 'Stack2', {
   env: {
     account: process.env.CDK_DEFAULT_ACCOUNT,
-    region: process.env.CDK_DEFAULT_REGION,
+    region: process.env.CDK_DEFAULT_REGION
   },
 });
 
 // Define multiple stacks stage associated with an environment
-const myStage = new Stage(app, "MyStage", {
+const myStage = new Stage(app, 'MyStage', {
   env: {
-    account: "123456789012",
-    region: "us-east-1",
-  },
+    account: '123456789012',
+    region: 'us-east-1'
+  }
 });
 
 // both of these stacks will use the stage's account/region:
 // `.account` and `.region` will resolve to the concrete values as above
-new MyStack(myStage, "Stack1");
-new YourStack(myStage, "Stack2");
+new MyStack(myStage, 'Stack1');
+new YourStack(myStage, 'Stack2');
 
 // Define an environment-agnostic stack:
 // `.account` and `.region` will resolve to `{ "Ref": "AWS::AccountId" }` and `{ "Ref": "AWS::Region" }` respectively.
 // which will only resolve to actual values by CloudFormation during deployment.
-new MyStack(app, "Stack1");
+new MyStack(app, 'Stack1');
 ```
+
 
 ##### `stackName`<sup>Optional</sup> <a name="stackName" id="@jumic/iot-project.IotDataCollectionPipelineStackProps.property.stackName"></a>
 
@@ -977,8 +982,8 @@ new MyStack(app, "Stack1");
 public readonly stackName: string;
 ```
 
-- _Type:_ string
-- _Default:_ Derived from construct path.
+- *Type:* string
+- *Default:* Derived from construct path.
 
 Name to deploy the stack with.
 
@@ -990,8 +995,8 @@ Name to deploy the stack with.
 public readonly synthesizer: IStackSynthesizer;
 ```
 
-- _Type:_ aws-cdk-lib.IStackSynthesizer
-- _Default:_ `DefaultStackSynthesizer` if the `@aws-cdk/core:newStyleStackSynthesis` feature flag is set, `LegacyStackSynthesizer` otherwise.
+- *Type:* aws-cdk-lib.IStackSynthesizer
+- *Default:* `DefaultStackSynthesizer` if the `@aws-cdk/core:newStyleStackSynthesis` feature flag is set, `LegacyStackSynthesizer` otherwise.
 
 Synthesis method to use while deploying this stack.
 
@@ -1003,8 +1008,8 @@ Synthesis method to use while deploying this stack.
 public readonly tags: {[ key: string ]: string};
 ```
 
-- _Type:_ {[ key: string ]: string}
-- _Default:_ {}
+- *Type:* {[ key: string ]: string}
+- *Default:* {}
 
 Stack tags that will be applied to all the taggable resources and the stack itself.
 
@@ -1016,8 +1021,8 @@ Stack tags that will be applied to all the taggable resources and the stack itse
 public readonly terminationProtection: boolean;
 ```
 
-- _Type:_ boolean
-- _Default:_ false
+- *Type:* boolean
+- *Default:* false
 
 Whether to enable termination protection for this stack.
 
@@ -1029,7 +1034,7 @@ Whether to enable termination protection for this stack.
 public readonly codeCommitRepositoryName: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 CodeCommit Repository Name.
 
@@ -1041,7 +1046,7 @@ CodeCommit Repository Name.
 public readonly npmTokenSecretArn: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 ---
 
@@ -1051,7 +1056,7 @@ public readonly npmTokenSecretArn: string;
 public readonly stages: IotDataCollectionPipelineStage[];
 ```
 
-- _Type:_ <a href="#@jumic/iot-project.IotDataCollectionPipelineStage">IotDataCollectionPipelineStage</a>[]
+- *Type:* <a href="#@jumic/iot-project.IotDataCollectionPipelineStage">IotDataCollectionPipelineStage</a>[]
 
 ---
 
@@ -1067,10 +1072,10 @@ const iotDataCollectionPipelineStage: IotDataCollectionPipelineStage = { ... }
 
 #### Properties <a name="Properties" id="Properties"></a>
 
-| **Name**                                                                                         | **Type**                             | **Description**   |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------ | ----------------- |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStage.property.env">env</a></code>   | <code>aws-cdk-lib.Environment</code> | _No description._ |
-| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStage.property.name">name</a></code> | <code>string</code>                  | _No description._ |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStage.property.env">env</a></code> | <code>aws-cdk-lib.Environment</code> | *No description.* |
+| <code><a href="#@jumic/iot-project.IotDataCollectionPipelineStage.property.name">name</a></code> | <code>string</code> | *No description.* |
 
 ---
 
@@ -1080,7 +1085,7 @@ const iotDataCollectionPipelineStage: IotDataCollectionPipelineStage = { ... }
 public readonly env: Environment;
 ```
 
-- _Type:_ aws-cdk-lib.Environment
+- *Type:* aws-cdk-lib.Environment
 
 ---
 
@@ -1090,7 +1095,7 @@ public readonly env: Environment;
 public readonly name: string;
 ```
 
-- _Type:_ string
+- *Type:* string
 
 ---
 
@@ -1106,8 +1111,8 @@ const iotDataCollectionProps: IotDataCollectionProps = { ... }
 
 #### Properties <a name="Properties" id="Properties"></a>
 
-| **Name**                                                                                                                     | **Type**            | **Description**                         |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------------------- | --------------------------------------- |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
 | <code><a href="#@jumic/iot-project.IotDataCollectionProps.property.queueVisibilityTimeout">queueVisibilityTimeout</a></code> | <code>number</code> | Timeout of processing a single message. |
 
 ---
@@ -1118,8 +1123,11 @@ const iotDataCollectionProps: IotDataCollectionProps = { ... }
 public readonly queueVisibilityTimeout: number;
 ```
 
-- _Type:_ number
+- *Type:* number
 
 Timeout of processing a single message.
 
 ---
+
+
+
