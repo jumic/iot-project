@@ -31,6 +31,10 @@
       "type": "build"
     },
     {
+      "name": "eslint-config-prettier",
+      "type": "build"
+    },
+    {
       "name": "eslint-import-resolver-node",
       "type": "build"
     },
@@ -40,6 +44,10 @@
     },
     {
       "name": "eslint-plugin-import",
+      "type": "build"
+    },
+    {
+      "name": "eslint-plugin-prettier",
       "type": "build"
     },
     {
@@ -79,7 +87,11 @@
     },
     {
       "name": "npm-check-updates",
-      "version": "^15",
+      "version": "^16",
+      "type": "build"
+    },
+    {
+      "name": "prettier",
       "type": "build"
     },
     {
@@ -92,27 +104,20 @@
       "type": "build"
     },
     {
-      "name": "ts-jest",
-      "version": "^27",
-      "type": "build"
-    },
-    {
       "name": "typescript",
       "type": "build"
     },
     {
+      "name": "@aws-cdk/aws-iot-actions-alpha",
+      "type": "bundled"
+    },
+    {
+      "name": "@aws-cdk/aws-iot-alpha",
+      "type": "bundled"
+    },
+    {
       "name": "@types/prettier",
       "version": "2.6.0",
-      "type": "override"
-    },
-    {
-      "name": "@types/responselike",
-      "version": "1.0.0",
-      "type": "override"
-    },
-    {
-      "name": "got",
-      "version": "12.3.1",
       "type": "override"
     },
     {

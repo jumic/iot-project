@@ -100,6 +100,76 @@
         }
       ]
     },
+    "dev-iot-data-collection:bootstrap": {
+      "name": "dev-iot-data-collection:bootstrap",
+      "description": "cdk bootstrap",
+      "steps": [
+        {
+          "exec": "npx cdk bootstrap"
+        }
+      ],
+      "cwd": "src/__tests__/iot-data-collection-devapp"
+    },
+    "dev-iot-data-collection:deploy": {
+      "name": "dev-iot-data-collection:deploy",
+      "description": "cdk deploy",
+      "steps": [
+        {
+          "exec": "npx cdk deploy"
+        }
+      ],
+      "cwd": "src/__tests__/iot-data-collection-devapp"
+    },
+    "dev-iot-data-collection:destroy": {
+      "name": "dev-iot-data-collection:destroy",
+      "description": "cdk destroy",
+      "steps": [
+        {
+          "exec": "npx cdk destroy"
+        }
+      ],
+      "cwd": "src/__tests__/iot-data-collection-devapp"
+    },
+    "dev-iot-data-collection:diff": {
+      "name": "dev-iot-data-collection:diff",
+      "description": "cdk diff",
+      "steps": [
+        {
+          "exec": "npx cdk diff"
+        }
+      ],
+      "cwd": "src/__tests__/iot-data-collection-devapp"
+    },
+    "dev-iot-data-collection:hotswap": {
+      "name": "dev-iot-data-collection:hotswap",
+      "description": "cdk deploy --hotswap",
+      "steps": [
+        {
+          "exec": "npx cdk deploy --hotswap"
+        }
+      ],
+      "cwd": "src/__tests__/iot-data-collection-devapp"
+    },
+    "dev-iot-data-collection:synth": {
+      "name": "dev-iot-data-collection:synth",
+      "description": "cdk synth",
+      "steps": [
+        {
+          "exec": "npx cdk synth"
+        }
+      ],
+      "cwd": "src/__tests__/iot-data-collection-devapp"
+    },
+    "dev-iot-data-collection:watch": {
+      "name": "dev-iot-data-collection:watch",
+      "description": "cdk watch",
+      "steps": [
+        {
+          "exec": "npx cdk watch"
+        }
+      ],
+      "cwd": "src/__tests__/iot-data-collection-devapp"
+    },
     "docgen": {
       "name": "docgen",
       "description": "Generate API.md from .jsii manifest",
@@ -126,7 +196,7 @@
       "description": "Runs eslint against the codebase",
       "steps": [
         {
-          "exec": "eslint --ext .ts,.tsx --fix --no-error-on-unmatched-pattern src test build-tools .projenrc.js"
+          "exec": "eslint --ext .ts,.tsx --fix --no-error-on-unmatched-pattern src src/__tests__ build-tools .projenrc.js"
         }
       ]
     },

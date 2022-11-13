@@ -7,7 +7,7 @@ permissions-backup.acl
 /dist/changelog.md
 /dist/version.txt
 /.mergify.yml
-/test/
+/src/__tests__/
 /tsconfig.dev.json
 /src/
 !/lib/
@@ -20,5 +20,6 @@ dist
 /.idea/
 /.projenrc.js
 tsconfig.tsbuildinfo
+/lib/__tests__/
 /.eslintrc.json
 !.jsii
